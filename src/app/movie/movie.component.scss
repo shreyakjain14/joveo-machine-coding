@@ -1,0 +1,20 @@
+.movie {
+  background-color: bisque;
+  padding: 0.5rem;
+  text-align: center;
+  overflow-y: auto;
+  min-height: 20rem;
+  flex-grow: 1;
+  width: 15rem;
+  border-radius: 1rem;
+}
+
+.image {
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: 0.5rem;
+}
+
+.text-wrap {
+  text-overflow: wrap;
+}

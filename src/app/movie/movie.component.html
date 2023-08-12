@@ -1,0 +1,5 @@
+<div class="movie" appHighlighted [hoverClass]="'highlighted'">
+  <img class="image" [src]="IMG_URL + movie.poster_path" [alt]="movie.title" />
+  <h3 class="text-wrap">{{ movie.title }}</h3>
+  <div class="mt-2">Release Date: {{ movie.release_date | date }}</div>
+</div>
