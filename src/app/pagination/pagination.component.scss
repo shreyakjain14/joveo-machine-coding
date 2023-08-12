@@ -2,4 +2,17 @@
   margin-top: 1rem;
   display: flex;
   justify-content: space-around;
+  background-color: #d3d3d3;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+.btn:hover {
+  background-color: rgb(131, 211, 131);
+  color: white;
 }
